@@ -1,0 +1,52 @@
+name: converterx
+description: A powerful Web to APK and APK/AAB converter app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # UI & State Management
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  flutter_svg: ^2.0.9
+  
+  # Core Features
+  webview_flutter: ^4.4.2
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  url_launcher: ^6.2.2
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  
+  # Utilities
+  http: ^1.1.2
+  path: ^1.8.3
+  mime: ^1.0.4
+  archive: ^3.4.9
+  share_plus: ^7.2.1
+  open_filex: ^4.3.4
+  fluttertoast: ^8.2.4
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/lottie/
